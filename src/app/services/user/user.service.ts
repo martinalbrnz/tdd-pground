@@ -19,6 +19,10 @@ export class UserService {
       .pipe(map(user => user.role))
   }
 
+  get currentUserRoleValue(): Roles {
+    return this.#currentUser.getValue().role
+  }
+
   setUser(user: User): void {
     this.#currentUser.next(user)
   }

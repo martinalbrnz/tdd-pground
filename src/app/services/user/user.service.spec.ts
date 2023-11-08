@@ -1,7 +1,7 @@
 import { TestBed } from '@angular/core/testing'
 
+import { Roles } from '@constants/roles'
 import { User } from '@models/user'
-import { Roles } from 'src/app/constants/roles'
 import { UserService } from './user.service'
 
 describe('UserService', () => {

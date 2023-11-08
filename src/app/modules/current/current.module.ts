@@ -1,7 +1,7 @@
-import { NgModule } from '@angular/core'
 import { CommonModule } from '@angular/common'
+import { NgModule } from '@angular/core'
 
-import { CurrentRoutingModule } from './current-routing.module'
+import CurrentRoutingModule from './current-routing.module'
 
 @NgModule({
   declarations: [],

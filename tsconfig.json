@@ -6,6 +6,7 @@
     "paths": {
       "@bp-core/*": ["./src/app/core/*"],
       "@components/*": ["./src/app/shared/components/*"],
+      "@constants/*": ["./src/app/constants/*"],
       "@directives/*": ["./src/app/shared/directives/*"],
       "@guards/*": ["./src/app/guards/*"],
       "@models/*": ["./src/app/models/*"],

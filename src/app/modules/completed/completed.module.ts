@@ -1,7 +1,7 @@
-import { NgModule } from '@angular/core'
 import { CommonModule } from '@angular/common'
+import { NgModule } from '@angular/core'
 
-import { CompletedRoutingModule } from './completed-routing.module'
+import CompletedRoutingModule from './completed-routing.module'
 
 @NgModule({
   declarations: [],
